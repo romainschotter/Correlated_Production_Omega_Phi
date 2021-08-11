@@ -147,7 +147,29 @@
         \setlength{\epigraphwidth}{80mm}
         \renewcommand{\epigraphsize}{\footnotesize}
         
-%\usepackage{fancyhdr} %modification des bas de pages et en-tetes
+%\usepackage{fancyhdr} %modification of page headers and footers
+% Already loaded by cernphprep.cls
+
+\pagestyle{fancy}
+    \addtolength{\headheight}{\baselineskip}
+    \renewcommand{\sectionmark}[1]{\markboth{\thesection.~~#1}{}}
+    \renewcommand{\subsectionmark}[1]{\markright{\thesubsection.~~#1}}
+
+\fancypagestyle{MainStyle}{%
+
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    % \fancyhead[RE]{\small\leftmark}
+    % \fancyhead[LO]{\small\rightmark}
+%     \fancyhead[L]{\truncate{1.0\headwidth}{\small\rightmark }}
+    \fancyhead[L]{\small\leftmark\\\footnotesize\rightmark}
+    \fancyhead[R]{\truncate{1.0\headwidth}{\hyperlink{LinkToTOC}{to TOC} ~/~~\thepage}}
+    \renewcommand{\headrulewidth}{0.2pt}
+}
+
+
+
+
 %\usepackage{tocbibind} %allow integration de biblio+index dans la TOC(a comparer avec addcontentsline)
 %\usepackage{bibunits} %permet de faire une biblio par partie, chapitre, section...
         

@@ -38,19 +38,21 @@
 
 \begin{document}%
 
+\pagestyle{MainStyle}
+
 %______________________________________________________________________________
 %______________________________________________________________ Title
 
 
 \begin{titlepage}
     %
-    \PHyear{2020}
+    \PHyear{2021}
     \PHnumber{XXX}      % required, will be obtained from PH
     \PHdate{\monthname[\month]}  % required, will be obtained from PH
     %
 
     %%% Put your own title + short title here:
-    \title{Study of correlated production of strangeness via the measurement of the yield ratio of              \rmOmegaPM and \rmPhiMes with \pp data of LHC run II}
+    \title{Study of correlated production of strangeness via the measurement of the yield ratio of \rmOmegaPM\ and \rmPhiMes\ with \pp\ data of LHC run II}
     \ShortTitle{Short title}   % appears on right page headers
 
     %%% Do not change the next lines
@@ -61,7 +63,7 @@
 
     \Collaboration{%    
     \thanks{by alphabetical order}
-        Antonin Maire, Romain Schotter,\\        
+        Antonin Maire$^{1,2}$, Romain Schotter$^1$\\        
             \footnotesize \color{Gray}
             1. Université de Strasbourg, IPHC, 23 rue du Loess 67037 Strasbourg, France. \\
             2. CNRS, UMR7178, 67037 Strasbourg, France.\\
@@ -101,6 +103,8 @@
 %______________________________________________________________________________
 %______________________________________________________________ Core document
 
+
+\hypertarget{LinkToTOC}
 \tableofcontents
 \cleardoublepage 
 \phantomsection 
@@ -108,23 +112,23 @@
 
 \part{Brainstorming and considerations (for PC internal use)}
 
-\include{PrePrint_Sec00_Brainstorming} % 
+\input{PrePrint_Sec00_Brainstorming} % 
 
 
 \part{Data sets and analysis strategy}
 
-\include{PrePrint_Sec01_Introduction} % Introduction
-\include{PrePrint_Sec02_Datasets} % Data sets
-\include{PrePrint_Sec03_EventSelections} % Event selections
-\include{PrePrint_Sec04_TrackSelections} % Track and topological selections
+\input{PrePrint_Sec01_Introduction} % Introduction
+\input{PrePrint_Sec02_Datasets} % Data sets
+\input{PrePrint_Sec03_EventSelections} % Event selections
+\input{PrePrint_Sec04_TrackSelections} % Track and topological selections
 
-\include{PrePrint_Sec05_Systematics} % Systematic checks
+\input{PrePrint_Sec05_Systematics} % Systematic checks
 
 
 \part{Results and discussion}
 
-\include{PrePrint_Sec06_Results} % Results
-\include{PrePrint_Sec07_Discussion} % Discussion
+\input{PrePrint_Sec06_Results} % Results
+\input{PrePrint_Sec07_Discussion} % Discussion
 
 
 % http://en.wikibooks.org/wiki/LaTeX/Bibliography_Management#Bibliography_in_the_table_of_contents
@@ -139,9 +143,12 @@
 %______________________________________________________________ Acknowledgements
 
 \newenvironment{acknowledgement}{\relax}{\relax}
+\addcontentsline{toc}{section}{Acknowledgements}
 \begin{acknowledgement}
 \section*{Acknowledgements}
-%\input{acknowledgements.tex}    %%%%%%% done by webmaster team
+\input{PrePrint_Acknowledgements.tex}    
+%% complemented here with the QMat aknowledgements
+%%%%%%% done by webmaster team, a priori
 \end{acknowledgement}
 
 
