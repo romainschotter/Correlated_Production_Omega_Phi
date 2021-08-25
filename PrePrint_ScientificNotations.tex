@@ -49,7 +49,7 @@
 
 % 2.1 - Physics quantities
 
-\newcommand {\pT}           {\ensuremath{p_{\text{\textsc{t}}}}}
+\newcommand {\pT}           {\ensuremath{p_{\text{\textsc{t}}}}\xspace}
 % \DeclareRobustCommand {\pT}        {\ensuremath{p_{\text{\textsc{t}}}}}
 \newcommand {\pZ}           {\ensuremath{p_{\text{\textsc{z}}}}}
 \newcommand {\pTlw}         {\ensuremath{p_{\text{\textsc{t}}}^{lw} }}
@@ -62,8 +62,8 @@
 \newcommand {\sigmapT}      {\mbox{$\sigma_{\pT}$}}
 \newcommand {\meanpT}       {\ensuremath{\langle p_{\textsc{t}} \kern-0.1em\rangle}}
 \newcommand {\mean}[1]      {\ensuremath{\langle #1 \kern-0.1em\rangle}} 
-\newcommand {\sqrtSnn}      {\ensuremath{\sqrt{s_\text{\textsc{nn}}}}}
-\newcommand {\sqrtS}        {\ensuremath{\sqrt{s}}}
+\newcommand {\sqrtSnn}      {\ensuremath{\sqrt{s_\text{\textsc{nn}}}}\xspace}
+\newcommand {\sqrtS}        {\ensuremath{\sqrt{s}}\xspace}
 \newcommand {\vTwo}         {\ensuremath{v_{\text{2}}}}
 \newcommand {\vThree}       {\ensuremath{v_{\text{3}}}}
 \newcommand {\vFour}        {\ensuremath{v_{\text{4}}}}
@@ -84,15 +84,15 @@
 \newcommand {\rap}          {\mbox{$y$}}
 \newcommand {\rapLab}       {\mbox{$y_{\text{lab}}$}}
 \newcommand {\rapCms}       {\mbox{$y_{\text{\textsc{cms} }}$}}
-\newcommand {\absrap}       {\mbox{$\left | y \right | $}}
+\newcommand {\absrap}       {\mbox{$\left | y \right | $}\xspace}
 \newcommand {\rapPart}[1]   {\mbox{$\left | y\text{(#1)} \right | $}}
 \newcommand {\rapXi}        {\mbox{$\left | y(\rmXi) \right | $}}
 \newcommand {\rapJpsi}      {\mbox{$y_{\tiny \rmJpsi}$}}
-\newcommand {\abspseudorap} {\mbox{$\left | \eta \right | $}}
-\newcommand {\pseudorap}    {\mbox{$\eta$}}
+\newcommand {\abspseudorap} {\mbox{$\left | \eta \right | $}\xspace}
+\newcommand {\pseudorap}    {\mbox{$\eta$}\xspace}
 \newcommand {\pseudorapLab} {\mbox{$\eta_{\,\text{lab}}$}}
 \newcommand {\pseudorapCms} {\mbox{$\eta_{\text{\textsc{cms} }}$}}
-\newcommand {\cTau}         {\ensuremath{c.\tau}}
+\newcommand {\cTau}         {\ensuremath{c.\tau}\xspace}
 \newcommand {\sigee}        {$\sigma_E$/$E$}
 
 \newcommand {\oneOverpipT}  {\ensuremath{1/2\pi\pT}}
@@ -139,7 +139,7 @@
 \newcommand {\mPDG}[1]      {\ensuremath{m_{\textsc{pdg}}(#1)}}
 
 
-
+\newcommand {\Ntracklet}    {\ensuremath{N_{\text{tracklets}}^{|\eta| < 1}}}
 \newcommand {\Nevt}         {\ensuremath{N_\text{evt}}}
 \newcommand {\NevtINEL}     {\ensuremath{N_\text{evt}(\textsc{inel})}}
 \newcommand {\NevtNSD}      {\ensuremath{N_\text{evt}(\textsc{nsd})}}
@@ -172,6 +172,7 @@
 \newcommand {\sigmaStat}    {\ensuremath{\sigma_{stat}}}
 \newcommand {\sigmaSyst}    {\ensuremath{\sigma_{syst}}}
 \newcommand {\sigmaTot}     {\ensuremath{\sqrt{\sigmaStat^2 + \sigmaSyst^2}}}
+\newcommand {\sigmaINELZero}{\ensuremath{\sigma/\sigma_{\text{INEL>0}}}\xspace}
 
 
 
@@ -186,6 +187,17 @@
 \newcommand{\Pythiaeight}   {\Pythia~8\xspace}
 \newcommand{\Rivet}         {\textsc{Rivet}\xspace}
 \newcommand{\HepMC}         {\textsc{HepMc}\xspace}
+
+% 2.3 - some generator tunes
+
+\newcommand{\Monash}        {\textsc{Monash~2013}\xspace}
+\newcommand{\Perugia}       {\textsc{Perugia~2011}\xspace}
+
+% 2.4 - some propagator Names
+
+\newcommand{\Geantfour}     {\textsc{Geant~4}\xspace}
+\newcommand{\Geantthree}    {\textsc{Geant~3}\xspace}
+\newcommand{\Fluka}         {\textsc{Fluka}\xspace}
 
 %
 % 3 - Collisions Systems
@@ -243,7 +255,7 @@
 \newcommand {\nm}       {\unitStyle{nm}}
 \newcommand {\mum}      {\mbox{$\mu\unitStyle{m}$}}
 \newcommand {\mm}       {\unitStyle{mm}}
-\newcommand {\cm}       {\unitStyle{cm}}
+\newcommand {\cm}       {\unitStyle{cm}\xspace}
 \newcommand {\m}        {\unitStyle{m}}
 
 \newcommand {\cmq}      {\mbox{$\cm^2$}}
@@ -307,7 +319,7 @@
 \newcommand{\Kplusmin}   {\mbox{$\mathrm {K^{\pm}}$}}
 \newcommand{\rmKpm}      {\Kplusmin}
 \newcommand{\rmKstar}    {\mbox{$\mathrm{K}^*\mathrm{(892)}^0$}}
-\newcommand{\rmPhiMes}   {\mbox{$\mathrm {\phi(1020)}$}}
+\newcommand{\rmPhiMes}   {\mbox{$\mathrm {\phi(1020)}$}\xspace}
 
 \newcommand{\proton}    {\mbox{$\mathrm {p}$}}
 \newcommand{\pbar}      {\mbox{$\mathrm {\overline{p}}$}}
@@ -317,8 +329,8 @@
 
 \newcommand{\rmLambdaZ}         {\mbox{$\mathrm {\Lambda}$}}
 \newcommand{\rmAlambdaZ}        {\mbox{$\mathrm {\overline{\Lambda}}$}}
-\newcommand{\rmLambda}          {\mbox{$\mathrm {\Lambda}$}}
-\newcommand{\rmAlambda}         {\mbox{$\mathrm {\overline{\Lambda}}$}}
+\newcommand{\rmLambda}          {\mbox{$\mathrm {\Lambda}$}\xspace}
+\newcommand{\rmAlambda}         {\mbox{$\mathrm {\overline{\Lambda}}$}\xspace}
 \newcommand{\rmLambdas}         {\mbox{$\mathrm {\Lambda \kern-0.2em + \kern-0.2em \overline{\Lambda}}$}}
 \newcommand{\ratioLamOverKzs}   {\rmLambda/\rmKzero}
 
@@ -330,9 +342,9 @@
 \newcommand{\rmSigmaPres}   {\mbox{$\mathrm{\Sigma(1385)}^{+}$}}
 
 
-\newcommand{\rmXi}      {\mbox{$\mathrm{\Xi}$}}
-\newcommand{\rmXiM}     {\mbox{$\mathrm{\Xi}^{-}$}}
-\newcommand{\rmXiPM}    {\mbox{$\mathrm {\Xi^{\pm}}$}}
+\newcommand{\rmXi}      {\mbox{$\mathrm{\Xi}$}\xspace}
+\newcommand{\rmXiM}     {\mbox{$\mathrm{\Xi}^{-}$}\xspace}
+\newcommand{\rmXiPM}    {\mbox{$\mathrm {\Xi^{\pm}}$}\xspace}
 % \newcommand{\rmXiPM} { \mbox{$\kern-0.1em \mathrm{\vcenter{\offinterlineskip \vskip-1.0ex\hbox{\tiny \kern-0.05em- \kern-0.3em- \kern-0.3em-} \vskip+0.01ex\hbox{$\Xi$}}^{\protect \underline{\fivedots}}} \kern-0.1em$} }
 % \newcommand{\rmXiPM} { \mbox{$\kern-0.0em \mathrm{\vcenter{\offinterlineskip \vskip-1.0ex\hbox{\tiny \kern+0.05em- \kern-0.3em- \kern-0.3em-} \vskip+0.1ex\hbox{$\Xi$}}^{\protect \tiny ^\fivedots \kern-0.75em _{\relbar} \kern-.3em}}$} }
 
@@ -352,11 +364,11 @@
 \newcommand{\rmXiMres}  {\mbox{$\mathrm {\Xi (1530)^{-}}$}}
 \newcommand{\rmAxiPres} {\mbox{$\mathrm {\overline{\Xi}(1530)^{+}}$}}
 
-\newcommand{\rmOmega}   {\mbox{$\mathrm {\Omega}$}}
-\newcommand{\rmOmegaM}  {\mbox{$\mathrm {\Omega^{-}}$}}
-\newcommand{\rmAomegaP} {\mbox{$\mathrm {\overline{\Omega}^{+}}$}}
-\newcommand{\rmOmegas}  {\mbox{$\mathrm {\Omega^{-} \kern-0.3em +  \kern-0.1em \overline{\Omega}^{+}}$}}
-\newcommand{\rmOmegaPM} {\mbox{$\mathrm {\Omega^{\pm}}$}} 
+\newcommand{\rmOmega}   {\mbox{$\mathrm {\Omega}$}\xspace}
+\newcommand{\rmOmegaM}  {\mbox{$\mathrm {\Omega^{-}}$}\xspace}
+\newcommand{\rmAomegaP} {\mbox{$\mathrm {\overline{\Omega}^{+}}$}\xspace}
+\newcommand{\rmOmegas}  {\mbox{$\mathrm {\Omega^{-} \kern-0.3em +  \kern-0.1em \overline{\Omega}^{+}}$}\xspace}
+\newcommand{\rmOmegaPM} {\mbox{$\mathrm {\Omega^{\pm}}$}\xspace} 
 % \newcommand{\rmOmegaPM} {\mbox{$\kern+0.0em \mathrm{\vcenter{\offinterlineskip \vskip-1.0ex\hbox{\tiny \kern-0.05em- \kern-0.3em- \kern-0.3em- \kern-0.3em-} \vskip+0.1ex\hbox{$\Omega$}}^{\protect \tiny ^\fivedots \kern-0.8em _{\relbar} \kern-.3em}}$} }
 % \newcommand{\rmOmegaPM} {\mbox{$\kern-0.1em \mathrm{ \protect \overset{_\hbox{\Cutline}}{\Omega}^{\protect \underline{\fivedots}} \kern-0.1em}$}}
 
