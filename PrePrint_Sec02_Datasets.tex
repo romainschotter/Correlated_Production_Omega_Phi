@@ -1,9 +1,27 @@
+\newpage
 %//------ Section 02 -------------------------------------------------------------------------------------------------
 \section{Data sets in \pp}
 \label{sec:Section02}
 %//-----------------------------------------------------------------------//
 
-\subsection{SbSection}
+\subsection{Data sets}
 \label{sec:Section02.a-}
+
+All pp data sets at \sqrtS = 13 \tev collected by ALICE during LHC run II -- that is from 2016 to 2018 -- are exploited in this analysis. In total, the analysis is based upon 2.2 billions minimum bias events, corresponding to an integrated luminosity of 8.12 $\nb^{-1}$ for 2016, 10.67 $\nb^{-1}$ for 2017 and 13.14 $\nb^{-1}$ for 2018 (\ref{collaboration_alice_nodate}). 
+
+Correction in acceptance and efficiency are applied on the presented measurements. Since the yield of \rmOmegaPM is low in comparison to the one of the \rmPhiMes, two sets of MC data are used : one general purpose for the \rmPhiMes and one enriched in \rmXiPM and \rmOmegaPM. Anchored on all the periods from 2016 to 2018, the former is composed of 700 million events, while the latter consists of 12 million events, coming from only two periods (LHC17j and LHC18i). Both are generated with \Pythiaeight using the \Monash tune and then propagated with \Geantfour. Events are reconstructed employing the same techniques and event selections as for the real data.
+
+\subsection{The ALICE detector}
+\label{sec:Section02.b-}
+
+The ALICE detector, as well as its performance, is described extensively in (\ref{collaboration_alice_2008}\ref{alice_collaboration_performance_2014}). The main sub-detectors used, in this work, are the Inner Tracking System (ITS), the Time Projection Chamber (TPC), the Time-Of-Flight detector (TOF) and the V0 detector. All are embedded inside the L3 solenoid magnet with a magnetic field of -0.5, -0.2 or +0.5 T, depending on the data taking periods (Ref Twiki page of data runs).
+
+The ITS consists of six cylindrical layers of silicon detectors, close to the primary vertex -- positionned radially between 3.9 and 43 cm --, covering the pseudo-rapidity region \abspseudorap < 0.9. The innermost layer is composed of two layers of hydrib Silicon Pixel Detector (SPD), located respectively at 3.9 and 7.6 cm, and covers a more extended pseudo-rapidity region \abspseudorap < 1.98. The SPD is also used to reconstruct short tracks constructed from only two points, also known as tracklets. The intermediate and outermost layers are constituted separately of two layers of Silicon Drift Detector (SDD) and two layers of Silicon Strip Detector (SSD). This silicon tracker is responsible for reconstructing primary and secondary vertices. 
+
+The TPC is cylindrical gaseous detector -- the gas consists of a mix of Ne/CO$_2$/N$_2$ for the 2016 periods, or Ar/CO$_2$ for 2017 and 2018 periods --, surrounding the ITS and covering the pseudo-rapidity region \abspseudorap < 0.9 ; its inner and outter radius are positionned respectively at 85 and 250 cm, and it has an overall length of 500 cm. The readout chambers corresponds to the two end-cap of barrel ; they are composed of multi-wire proportionnal chambers (MWPCs), arranged radially in pad rows. Thanks to its volume of 90 m$^3$ and its number of tracking points (up to 159), the TPC is able to reconstruct tracks of charged particle of momentum greater than 200 \mmom, but also to provide Particle Identification (PID) informations through the measurement of their energy loss.
+
+The TOF detector is cylindrical array of Multi-gap Resistive-Plate Chambers (MRPC), with an internal radius of 370 cm and an external one of 399 cm, which encompass the pseudo-rapidity region \abspseudorap < 0.9. The intrisic time resolution of the MRPC is about 40 \psec in pp collision. The measurement of the time of flight provides PID information at intermediate momentum ( 0.5 < $p$ < 3 \gmom ).
+
+The V0 detector is composed of two arrays of scintillators counters, V0-A (2.8 < \pseudorap < 5.1) and V0-C (-3.7 < \pseudorap < -1.7), and sits respectively at 329 cm and -88 cm along the beam direction. Thanks to its excellent time resolution -- 450 \psec for the V0-A and 350 \psec for the V0-C --, the TOF can provide trigger informations.
 
 \subsubsection{Sub-Sbsection}

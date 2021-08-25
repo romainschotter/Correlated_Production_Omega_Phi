@@ -3,7 +3,19 @@
 \label{sec:Section03}
 %//-----------------------------------------------------------------------//
 
-\subsection{SbSection}
-\label{sec:Section03.a-}
+Event selection was based on a minimum bias trigger (kINT7), requiring a hit in both V0-A and V0-C counters in coincidence with the arrival of proton bunches in the two directions, which leads to the rejection of beam-gas background events. Such background events are then further removed offline, using timing information provided by the V0, and correlation between clusters and reconstructed tracklets (\ref{alice_collaboration_performance_2014}). A constrain on the longitudinal position of the reconstructed vertex ($|z|$ < 10 cm, with $z$ the position along the beam axis) is applied in order to reduce the number of unwanted collisions and ensure that reconstructed tracks are contained inside the acceptance of ALICE barrel. Only events having at least one \rmOmegaPM candidate are selected ; the set of selections for these candidates, as well as the reason for such a request, are presented in section \ref{sec:Section04}.
 
-\subsubsection{Sub-Sbsection}
+In order to study multiplicity dependence, the event sample is divided into multiplicity classes, based on cuts on the total charged deposited in the V0 detector (V0M amplitude) or on the number of tracklets in the region \abspseudorap < 1 (\Ntracklet) ; the V0M amplitude varies proportionnally with the number of charged particle produced in the pseudo-rapidity range of the V0 detector (Ref V0 Performance). These classes are reported in \tab \ref{MultClass}, with their corresponding percentages of the total cross section \INELZero, \sigmaINELZero.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|ccccc}
+    \noalign{\smallskip}\hline \hline \noalign{\smallskip}
+    Multiplicity Class & I & II & III & IV & V \\
+	\sigmaINELZero & 0-0.95\% & 0.95-4.7\% & 4.7-9.5\% & 9.5-14\% & 14-19\% \\	        	\noalign{\smallskip}\hline \hline \noalign{\smallskip}
+	Multiplicity Class & VI & VII & VIII & IX & X \\
+	\sigmaINELZero & 19-28\% & 28-38\% & 38-48\% & 48-68\% & 68-100\% \\
+    \noalign{\smallskip}\hline \hline \noalign{\smallskip}
+    \end{tabular}
+    \caption{Event multiplicity classes used in this analysis and their corresponding \sigmaINELZero. (\ref{alice_collaboration_production_2020})}\label{MultClass}
+\end{table}
