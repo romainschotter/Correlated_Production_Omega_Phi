@@ -1,11 +1,18 @@
 %//------ Section 02 -------------------------------------------------------------------------------------------------
-\section{Event selections}
+\section{Event selections and analysis strategy}
 \label{sec:Section03}
 %//-----------------------------------------------------------------------//
 
-Event selection was based on a minimum bias trigger (kINT7), requiring a hit in both V0-A and V0-C counters in coincidence with the arrival of proton bunches in the two directions, which leads to the rejection of beam-gas background events. Such background events are then further removed offline, using timing information provided by the V0, and correlation between clusters and reconstructed tracklets (\ref{alice_collaboration_performance_2014}). A constrain on the longitudinal position of the reconstructed vertex ($|z|$ < 10 cm, with $z$ the position along the beam axis) is applied in order to reduce the number of unwanted collisions and ensure that reconstructed tracks are contained inside the acceptance of ALICE barrel. Only events having at least one \rmOmegaPM candidate are selected ; the set of selections for these candidates, as well as the reason for such a request, are presented in section \ref{sec:Section04}.
+\subsection{Event selections}
 
-In order to study multiplicity dependence, the event sample is divided into multiplicity classes, based on cuts on the total charged deposited in the V0 detector (V0M amplitude) or on the number of tracklets in the region \abspseudorap < 1 (\Ntracklet) ; the V0M amplitude varies proportionnally with the number of charged particle produced in the pseudo-rapidity range of the V0 detector (Ref V0 Performance). These classes are reported in \tab \ref{MultClass}, with their corresponding percentages of the total cross section \INELZero, \sigmaINELZero.
+Event selection was based on a minimum bias trigger (kINT7), requiring a hit in both V0-A and V0-C counters in coincidence with the arrival of proton bunches in the two directions, which leads to the rejection of beam-gas background events. Such background events are then further removed offline, using timing information provided by the V0, and correlation between clusters and reconstructed tracklets \cite{alice_collaboration_performance_2014}. A constrain on the longitudinal position of the reconstructed vertex ($|z|$ < 10 cm, with $z$ the position along the beam axis) is applied in order to reduce the number of unwanted collisions and ensure that reconstructed tracks are contained inside the acceptance of ALICE barrel. Only events having at least one \rmOmegaPM candidate are selected ; the set of selections for these candidates, as well as the reason for such a request, are presented in section \ref{sec:Section04}. For this reason, in the following, the \rmOmegaPM may be referred as the \textit{trigger particle}.
+
+\subsection{Analysis strategy}
+
+The observable is the yield ratio of \rmPhiMes and (\rmOmegas) as a function of their gap in rapidity and the multiplicity in charged particles. To get there, event analysis proceeds as follows. For each selected event, the trigger particles and the other particles of interest -- namely the \rmOmegaPM and \rmPhiMes candidates -- are reconstructed using the techniques/selections described in section \ref{sec:Section04}. To correlate both particles, they are associated in pairs ; invariant mass of each particle is calculated, and sorted as a function of \pT (of the \rmOmegaPM or \rmPhiMes) and the rapidity difference of the pair, $\Delta y$. \\
+After repeating these steps over all the data sample, yield of both species can be extracted from the invariant distributions, for each \pT and $\Delta y$ bins, as presented in section \ref{sec:Section04}. 
+
+In order to study multiplicity dependence, the event sample is divided into multiplicity classes, based on cuts on the total charged deposited in the V0 detector (V0M amplitude) or on the number of tracklets in the region \abspseudorap < 1 (\Ntracklet) ; the V0M amplitude varies proportionnally with the number of charged particle produced in the pseudo-rapidity range of the V0 detector \cite{alice_collaboration_performance_2013}. These classes are reported in \tab \ref{MultClass}, with their corresponding percentages of the total cross section \INELZero, \sigmaINELZero.
 
 \begin{table}[h]
     \centering
@@ -17,5 +24,5 @@ In order to study multiplicity dependence, the event sample is divided into mult
 	\sigmaINELZero & 19-28\% & 28-38\% & 38-48\% & 48-68\% & 68-100\% \\
     \noalign{\smallskip}\hline \hline \noalign{\smallskip}
     \end{tabular}
-    \caption{Event multiplicity classes used in this analysis and their corresponding \sigmaINELZero. (\ref{alice_collaboration_production_2020})}\label{MultClass}
+    \caption{Event multiplicity classes used in this analysis and their corresponding \sigmaINELZero \cite{alice_collaboration_production_2020}.}\label{MultClass}
 \end{table}
