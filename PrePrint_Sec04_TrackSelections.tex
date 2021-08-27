@@ -5,7 +5,7 @@
 %//-----------------------------------------------------------------------//
 
 
-Measurement of primary particles are presented in this work. A primary particle corresponds to any hadron whose mean proper lifetime is larger than 1 cm, produced either directly during the collision or by the decay of particles with lifetime \cTau < 1 \cm originating from the interaction point \ref{noauthor_alice_2017}. Because of the short lifetime of the particle of interest -- namely \rmOmega and \rmPhiMes --, they must be reconstructed based on their decay products. Both are reconstructed at mid-rapidity (\absrap < 0.5), via an invariant mass analysis.
+Measurement of primary particles are presented in this work. A primary particle corresponds to any hadron whose mean proper lifetime is larger than 1 cm, produced either directly during the collision or by the decay of particles with lifetime \cTau < 1 \cm originating from the interaction point \cite{noauthor_alice_2017}. Because of the short lifetime of the particles of interest -- namely \rmOmega and \rmPhiMes --, they must be reconstructed based on their decay products. Both are reconstructed at mid-rapidity (\absrap < 0.5), via an invariant mass analysis.
 
 \subsection{\rmOmega case}
 \label{sec:Section04.a-}
@@ -82,7 +82,14 @@ The signal extraction is performed as a function of \pT. A fit is performed usin
 \frac{\text{d}N}{\text{d}m_{\Lambda K}} = A \cdot \text{exp}[-0.5 \cdot x^{(1 + \frac{1}{1+0.5 \cdot x})}], \ x = \left | \frac{m_{\Lambda K} - \mu}{\sigma} \right |
 \end{equation}\label{eq:OmegaSignal}
 
-An example of an invariant mass distribution can be found in \fig. A peak of over-population emerges around the PDG mass of the \rmOmega, and one may notice that purity exceeds the 90\%. Such a pure sample has been obtained by restricting the range of possible value on the cosine of pointing angle of the cascade daughters ; this tight selection value corresponds to the one displayed in \tab \ref{tab:OmegaSel}.
+An example of an invariant mass distribution can be found in \fig \ref{fig:InvMassOmega}. A peak of over-population emerges around the PDG mass of the \rmOmega, and one may notice that purity exceeds the 90\%. Such a pure sample has been obtained by restricting the range of possible value on the cosine of pointing angle of the cascade daughters ; this tight selection value corresponds to the one displayed in \tab \ref{tab:OmegaSel}.
+
+\begin{figure}[!hp]
+% clip=true, trim=left bottom right top
+\includegraphics[width=1.00\textwidth, angle=0, clip=true, trim=0cm 0 0 0]{Figures/Sec04_TrackSelections/InvMassOmega.png} 
+\caption{Invariant mass distribution for \rmOmega in multiplicity class I. The candidates are reconstructed in \absrap < 0.5. Blue dashed line represents the signal fit ; the region delimited by the two dashed purple lines defines the \textit{signal region}, used to extract raw signal of \rmOmega.}
+\label{fig:InvMassOmega}
+\end{figure}
 
 \subsection{\rmPhiMes case}
 \label{sec:Section04.b-}
@@ -93,7 +100,7 @@ An example of an invariant mass distribution can be found in \fig. A peak of ove
 
 \rmPhiMes [$s\bar{s}$] $\rightarrow$ \Kplus [$u\bar{s}$] \Kminus [$\bar{u} s$]  \qquad \textsc{B.R. 49.2 \%}
 
-This resonance is reconstructed by forming pairs of tracks of opposite charge ; in the following, these pairs will be called "same-event pairs" . Due its short lifetime of 46.4 \fm \ref{noauthor_pdglive_nodate}, misassociations can not be discarded with a set of geometrical selections like in \rmOmega reconstruction, leading a large combinatorial background. This background is evaluated and then substracted using two techniques presented later in this section.
+This resonance is reconstructed by forming pairs of tracks of opposite charge ; in the following, these pairs will be called "same-event pairs" . Due its short lifetime of 46.4 \fm \cite{noauthor_pdglive_nodate}, misassociations can not be discarded with a set of geometrical selections like in \rmOmega reconstruction, leading a large combinatorial background. This background is evaluated and then substracted using two techniques presented later in this section.
 
 Tracks are being selected using standard ITS/TPC track cuts from 2011. High-quality tracks are ensured by restricting the number of crossed rows in TPC to be greater 70 (out of 159 pad rows) ; its ratio to the number of findable clusters should exceed 0.8. This is also achieved via cuts on $\chi^2$ per cluster. The latter  quantity on reconstructed tracks in the TPC and in the ITS are requiered to be smaller than 4 and 36 respectively ; $\chi^2$ value between TPC track constrained to the SPD vertex and global track must be inferior to 36. Only tracks following this requierements are retained : at least one hit in the innermost layer of the ITS, and the distance of closest approach to the primary vertex (DCA) lower than $0.0105 + 0.035 \pT^{-1.01}$ cm in the transverse plane and 2 cm along the longitudinal direction. In addition, kink decay topologies are discarded. This allows to reject secondary particles coming from weak decay. Each track has to lie in the pseudo-rapidity window \abspseudorap < 0.5 and to carry a transverse momentum between 0.15 and 4 \gmom. Energy loss in the TPC must be consistent with the PID hypothesis within $\pm$ 2 $\sigma$. If track matches a hit in the TOF, time of flight measurement is then used to select tracks compatible in $\pm$ 3 $\sigma$ with particle's species hypothesis.
 Only resonance candidates sitting in the rapidity interval \absrap < 0.5 are selected. 
@@ -146,7 +153,28 @@ For each \pT bin, in the mass window 0.990 < $m_{KK}$ < 1.060 \gmass, signal pea
 \frac{\text{d}N}{\text{d}m_{KK}} = \frac{A \Gamma}{(2\pi)^{3/2} \sigma} \int\limits_{-\infty}^{\infty} \text{exp} \big [ -\frac{(m_{KK} - m')^2}{2\sigma^2} \big ] \frac{1}{(m' - \mu)^2 + \Gamma^2/4} \text{d} m'
 \end{equation}\label{eq:PhiSignal}
 
-Width of the \rmPhiMes is fixed to its nominal value $\Gamma$ = 4.29 \mev , and the resolution $\sigma$ is kept as a free parameter. \fig illustrates an example of the invariant mass distribution obtained with the aforementionned procedure, on which a \rmPhiMes peak arises on top of a residual background. 
+Width of the \rmPhiMes is fixed to its nominal value $\Gamma$ = 4.29 \mev \cite{noauthor_pdglive_nodate}, and the resolution $\sigma$ is kept as a free parameter. \fig \ref{fig:InvMassPhi} illustrates an example of the invariant mass distribution obtained with the aforementionned procedure, on which a \rmPhiMes peak arises on top of a residual background. 
+
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{.45\linewidth}
+         \centering
+         \includegraphics[width=1.2\textwidth, angle=0, clip=true, trim=0cm 0 0 0]{Figures/Sec04_TrackSelections/Phi+EvtMixing.png} 
+         \caption{ }
+         \label{fig:InvMassPhi+Mixed}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{.45\linewidth}
+         \centering
+         \includegraphics[width=1.1\textwidth, angle=0, clip=true, trim=0cm 0 0 0cm]{Figures/Sec04_TrackSelections/InvMassPhi.png}
+         \caption{ }
+         \label{fig:InvMassPhiSub} 
+    \end{subfigure}
+    \hfill
+\caption{Invariant mass distributions for \rmPhiMes in multiplicity class I. The candidates are reconstructed in \absrap < 0.5. \fig \ref{fig:InvMassPhi+Mixed} : Same-event pairs distribution in black, normalized mixed-event pairs distribution in red. \fig \ref{fig:InvMassPhi} : Substraction of same-event and normalized mixed-pair distributions. Blue dashed line represents the signal fit ; the region delimited by the two dashed purple lines defines the \textit{signal region}, used to extract raw signal of \rmPhiMes.}
+	\label{fig:InvMassPhi}
+\end{figure}
+
 
 \subsection{Yield extraction}
 \label{sec:Section04.c-}
@@ -156,13 +184,33 @@ For each \pT bin, raw yield is calculated from the previously extracted raw sign
 \frac{\text{d}^2 N}{\text{d}\pT \text{d} y} \bigg\rvert_\textsc{raw} = \frac{S_\text{raw}}{\Delta \pT \Delta y}
 \end{equation}\label{eq:RawYield}
 
-Raw particle yields are then corrected in acceptance (A) and efficiency ($\epsilon_\textsc{rec}$) using a MC data sample : the enriched one for the \rmOmega, and the general purpose one for the \rmPhiMes. The goal is to estimate the efficiency factor, $\epsilon$, in \eq \ref{eq:Efficiency}. The numerator corresponds to the number of reconstructed \rmOmega/\rmPhiMes; reconstruction is performed as if it would be real data, with an additionnal request : only reconstructed cascade/resonance associated to a generated \rmOmega/rmPhiMes are selected. This ensures the efficiency factor to be defined between 0 and 1. Denominator contains the number of generated particles in the selected events, coming directly from MC truth. To avoid bin flow effect, the same set of selection must be applied on both numerator and denominator ; this concerns the cuts on the rapidity and on the transverse momentum. \fig ? and ? show efficiency factors as a function of \pT, for \rmOmega and \rmPhiMes respectively.
+Raw particle yields are then corrected in acceptance (A) and efficiency ($\epsilon_\textsc{rec}$) using a MC data sample : the enriched one for the \rmOmega, and the general purpose one for the \rmPhiMes. The goal is to estimate the efficiency factor, $\epsilon$, in \eq \ref{eq:Efficiency}. The numerator corresponds to the number of reconstructed \rmOmega/\rmPhiMes; reconstruction is performed as if it would be real data, with an additionnal request : only reconstructed cascade/resonance associated to a generated \rmOmega/rmPhiMes are selected. This ensures the efficiency factor to be defined between 0 and 1. Denominator contains the number of generated particles in the selected events, coming directly from MC truth. To avoid bin flow effect, the same set of selection must be applied on both numerator and denominator ; this concerns the cuts on the rapidity and on the transverse momentum. \fig \ref{fig:EffOmega} and \ref{fig:EffPhi} show efficiency factors as a function of \pT, for \rmOmega and \rmPhiMes respectively.
 
 \begin{equation}
 \epsilon = A\times \epsilon_\textsc{rec} \times \text{B.R.} = \frac{\text{Number of reconstructed \hPM}}{\text{Number of generated \hPM}}
 \end{equation}
 \label{eq:Efficiency}
 
-Once efficiency factors are evaluated for each \pT bin, corrected yields is given by dN/dptdy$_\textsc{raw}/\epsilon$. Uncertainties on $\epsilon$ are not propagated, they will be included in the systematic uncertainties. Once the yield is extracted for each \pT bin, they are all summed and uncertainties are added in quadrature. 
+Once efficiency factors are evaluated for each \pT bin, corrected yields is given by dN/dptdy$|_\textsc{raw}/\epsilon$. Uncertainties on $\epsilon$ are not propagated, they will be included in the systematic uncertainties. Once the yield is extracted for each \pT bin, they are all summed and uncertainties are added in quadrature. 
 
-Following the prediction to be tested, only events presenting at least one \rmPhiMes resonance should be selected, and \rmOmega yield should be extracted afterwards. As a matter of fact, it is completely equivalent to do the opposite, meaning : filter events with at least one \rmOmega, and then extract \rmPhiMes. However, it has been shown, in sections \ref{sec:Section04.a-} and \ref{sec:Section04.b-}, that both species have distinct purities. Consequently, even if the two approaches of the \Pythiaeight prediction are equivalent, one may introduce more noise than the other. With a purity exceeding 90\%, the second approach appears to be a relevant choice. 
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}[b]{.45\linewidth}
+         \centering
+         \includegraphics[width=1.\textwidth, angle=0, clip=true, trim=0cm 0 0 0]{Figures/Sec04_TrackSelections/EffOmega.png} 
+         \caption{ }
+         \label{fig:EffOmega}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{.45\linewidth}
+         \centering
+         \includegraphics[width=1.\textwidth, angle=0, clip=true, trim=0cm 0 0 0cm]{Figures/Sec04_TrackSelections/EffPhi.png}
+         \caption{ }
+         \label{fig:EffPhi} 
+    \end{subfigure}
+    \hfill
+\caption{Efficiency factors as a function of \pT for \ref{fig:EffOmega}) \rmOmega and \ref{fig:EffPhi}) \rmPhiMes . Efficiency factor is integrated in multiplicity of the event and in rapidity of the candidates. The candidates are reconstructed in \absrap < 0.5. \fig \ref{fig:EffOmega} has been obtained with the MC sample enriched in \rmXis and \rmOmegas ; \fig \ref{fig:EffPhi} has been extracted using five runs of the general purpose MC. }
+	\label{fig:Eff}
+\end{figure}
+
+Following the prediction to be tested, only events presenting at least one \rmPhiMes resonance should be selected, and \rmOmega yield should be extracted afterwards. As a matter of fact, it is completely equivalent to do the opposite, meaning : filter events with at least one \rmOmega, and then extract \rmPhiMes yield. However, it has been shown, in sections \ref{sec:Section04.a-} and \ref{sec:Section04.b-}, that both species have distinct purities. Consequently, even if the two approaches of the \Pythiaeight prediction are equivalent, one may introduce more noise than the other. With a purity exceeding 90\%, the second approach appears to be the most strategic choice. 

@@ -23,8 +23,10 @@
 %     authors and the cross-references to institutes, etc.        %
 %  6 June  2010 (version 1.04)                                    %
 %   - Introduce \CERNCopyright command to define copyright text   %
+%  26 August 2021(version 1.04)                                   %
+%   - Remove requierement on subfigure   						 %
 %                                                                 %
-%  Last mod.:  6 June 2010 MG (Michel Goossens, IT/UDS)           %
+%  Last mod.: 26 August 2021 RS (Romain Schotter, PhD/IPHC)       %
 %                                                                 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -58,7 +60,9 @@
 \renewcommand{\rmdefault}{ptm}
 \usepackage{mathptmx}
 
-\RequirePackage{graphicx,amsmath,amssymb,array,tabularx,url,xspace,subfigure}
+% Remove the requierement on subfigure, not compatible with subcaption
+%\RequirePackage{graphicx,amsmath,amssymb,array,tabularx,url,xspace,subfigure}
+\RequirePackage{graphicx,amsmath,amssymb,array,tabularx,url,xspace}
 \RequirePackage{ifthen}
  
 \typeout{Document Class "cernphprep" 1.04 (6 June 2010)}

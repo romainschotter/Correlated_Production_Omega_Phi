@@ -6,3 +6,82 @@
 
 \subsection{List of various strategical ideas}
 \label{sec:Section00.a-}
+
+\begin{table}[h]
+    \begin{center}
+        %\footnotesize
+        %\begin{tabular}{l|l @{~} l|cr @{~} l|lr @{.} l}
+        
+        \begin{tabular}{l | l | l}       
+            \noalign{\smallskip}\hline \hline \noalign{\smallskip}        
+             Check ID & Origin & Summary Title \\
+            \noalign{\smallskip}\hline\hline \noalign{\smallskip}
+                
+            \multicolumn{3}{l}{\textbf{Signal fit and extraction}} \\
+                    \ref{Strat:SignalFit:LevyTsallis} & Romain & Lévy-Tsallis fit to correct for signal loss at very low \pT  \\ 
+            \multicolumn{3}{l}{\textbf{Systematic study}} \\
+                    \ref{Strat:SystStudy:CorrelatedSel} & Romain & Account for correlation between selections. \\ 
+
+        \end{tabular}
+        \caption{Dashboard for strategical ideas suggested by collaborators. For further details, see text with the enumerate list.}
+        \label{tab:StratIdeas}
+    \end{center}
+\end{table}
+
+
+
+\begin{enumerate}[label=\emph{\Alph*}.,font=\bfseries] \bfseries \slshape
+    
+    \item Signal fit and extraction     \label{Strat:SignalFit}
+    %
+        \begin{enumerate}[label*=\roman*), leftmargin=0.5cm, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt] \normalfont
+            % \item \label{Check:SignalFit} ...
+            \item \label{Strat:SignalFit:LevyTsallis} Perform a Lévy-Tsallis fit using the extracted signal of each \pT. Yields of \rmOmega and \rmPhiMes would be integrated in \pT for all $\Delta y$ bins, and not limited to a certain range.                    
+        \end{enumerate}        
+        
+    \item Signal fit and extraction     \label{Strat:SystStudy}
+    %
+        \begin{enumerate}[label*=\roman*), leftmargin=0.5cm, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt] \normalfont
+            % \item \label{Check:SignalFit} ...
+            \item \label{Strat:SystStudy:CorrelatedSel} Account for correlation between selections, meaning we need to extract correlation matrix.                    
+        \end{enumerate}    
+  
+\end{enumerate}
+
+\subsection{List of various checks}
+\label{sec:Section00.b-}
+
+
+\begin{table}[h]
+    \begin{center}
+        %\footnotesize
+        %\begin{tabular}{l|l @{~} l|cr @{~} l|lr @{.} l}
+        
+        \begin{tabular}{l | c | l | l}       
+            \noalign{\smallskip}\hline \hline \noalign{\smallskip}        
+             Check ID & Status & Origin & Summary Title \\
+            \noalign{\smallskip}\hline\hline \noalign{\smallskip}
+                
+            \multicolumn{4}{l}{\textbf{PAG Strangeness Meeting 10/08/21}} \\
+                    \ref{Check:Results:PairAcc} & \ToDo & Jun Takahashi & Understand \rmOmega-\rmPhiMes pair acceptance\\ 
+                    	\ref{Check:Results:PhysicsMsg} & \ToDo & Jun Takahashi & Yield ratio around unity : physics message ?  \\ 
+                    	\ref{Check:Results:EnrichedMC} & \ToDo & Roman Lietava & Understand huge discrepancy in $N_{\rmOmega}/N_{\textsc{evt}}$ per period.  \\ 
+
+        \end{tabular}
+        \caption{Dashboard for systematic checks anticipated or suggested by collaborators. For further details, see text with the enumerate list.}
+        \label{tab:SystChecks}
+    \end{center}
+\end{table}
+
+\begin{enumerate}[label=\emph{\Alph*}.,font=\bfseries] \bfseries \slshape
+    
+    \item PAG Strangeness Meeting 10/08/21     \label{Syst:PAG100821}
+    %
+        \begin{enumerate}[label*=\roman*), leftmargin=0.5cm, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt] \normalfont
+            % \item \label{Check:SignalFit} ...
+            \item \label{Check:Results:PairAcc} Understand why \rmOmega-\rmPhiMes pair acceptance so large at large $\Delta y$ \\                    
+            \item \label{Check:Results:PhysicsMsg} Yield ratio around unity : try to understand what is happening on the side of physics ? Idea : look \pT distribution of \rmPhiMes w/o \rmOmega trigger \\                    
+            \item \label{Check:Results:EnrichedMC} Agree on the demand for more enriched MC production, but first, understand huge discrepancy in $N_{\rmOmega}/N_{\textsc{evt}}$ per period. \\                    
+        \end{enumerate}        
+  
+\end{enumerate}
