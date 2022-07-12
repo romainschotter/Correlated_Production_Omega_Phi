@@ -1,0 +1,45 @@
+\contentsline {part}{A.\hspace {1em}Brainstorming and considerations (for PC internal use)}{4}{part.1}%
+\contentsline {section}{\numberline {I}Brainstorming}{5}{section.1}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}I-{\small A}}List of various strategical ideas}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}I-{\small B}}List of various checks}{5}{subsection.1.2}%
+\contentsline {part}{B.\hspace {1em}Data sets and analysis strategy}{7}{part.2}%
+\contentsline {section}{\numberline {II}Introduction}{8}{section.2}%
+\contentsline {section}{\numberline {III}Data sets in \ensuremath {\mbox {\text {p\kern -0.05em p}}}\xspace }{9}{section.3}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}III-{\small A}}Data sets}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}III-{\small B}}The ALICE detector}{9}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {III-{\small B}.{\footnotesize i}}}Sub-Sbsection}{10}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {IV}Event selections and analysis strategy}{11}{section.4}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}IV-{\small A}}Event selections}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}IV-{\small B}}Analysis strategy}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {V}Track selections and topological selections}{12}{section.5}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}V-{\small A}}\mbox {$\mathrm {\Omega }$}\xspace case}{12}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {V-{\small A}.{\footnotesize i}}}Candidate selections}{12}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {V-{\small A}.{\footnotesize ii}}}Raw signal extraction}{13}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}V-{\small B}}\mbox {$\mathrm {\phi (1020)}$}\xspace case}{14}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {V-{\small B}.{\footnotesize i}}}Candidate selections}{14}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {V-{\small B}.{\footnotesize ii}}}Raw signal extraction}{15}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}V-{\small C}}Yield extraction}{16}{subsection.5.3}%
+\contentsline {section}{\numberline {VI}Systematic studies}{18}{section.6}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VI-{\small A}}\mbox {$\mathrm {\Omega }$}\xspace case}{18}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small A}.{\footnotesize i}}}Track and topological selections}{18}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small A}.{\footnotesize ii}}}Signal extraction}{18}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small A}.{\footnotesize iii}}}Material budget}{18}{subsubsection.6.1.3}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VI-{\small B}}\mbox {$\mathrm {\phi (1020)}$}\xspace case}{18}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small B}.{\footnotesize i}}}Track and pair selections}{18}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small B}.{\footnotesize ii}}}Signal extraction}{18}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small B}.{\footnotesize iii}}}Combinatorial background}{18}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small B}.{\footnotesize iv}}}Material budget}{18}{subsubsection.6.2.4}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VI-{\small C}}Yield ratio}{18}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VI-{\small C}.{\footnotesize i}}}Combinatorial background}{18}{subsubsection.6.3.1}%
+\contentsline {part}{C.\hspace {1em}Results and discussion}{20}{part.3}%
+\contentsline {section}{\numberline {VII}Results}{21}{section.7}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VII-{\small A}}Experimental results}{21}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VII-{\small A}.{\footnotesize i}}}Sub-Sbsection}{21}{subsubsection.7.1.1}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VII-{\small B}}Comparison with MC models}{22}{subsection.7.2}%
+\contentsline {section}{\numberline {VIII}Discussion}{23}{section.8}%
+\contentsline {subsection}{\numberline {\nobreakspace {}\nobreakspace {}VIII-{\small A}}SbSection}{23}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {\nobreakspace {}\nobreakspace {}\nobreakspace {}\nobreakspace {}\underline {VIII-{\small A}.{\footnotesize i}}}Sub-Sbsection}{23}{subsubsection.8.1.1}%
+\contentsline {section}{Acknowledgements}{24}{section*.12}%
+\contentsline {section}{References}{25}{section*.13}%
+\contentsline {section}{The ALICE collaboration}{26}{section*.13}%
+\contentsfinish 

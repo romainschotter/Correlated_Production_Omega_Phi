@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: PrePrint_Master.aux
+The style file: myJHEP.bst
+Database file #1: PrePrint_References.bib.bib
+You've used 12 entries,
+            2354 wiz_defined-function locations,
+            635 strings with 25632 characters,
+and the built_in function-call counts, 3665 in all, are:
+= -- 464
+> -- 45
+< -- 0
++ -- 20
+- -- 8
+* -- 260
+:= -- 445
+add.period$ -- 31
+call.type$ -- 12
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 12
+duplicate$ -- 192
+empty$ -- 390
+format.name$ -- 9
+if$ -- 1008
+int.to.chr$ -- 0
+int.to.str$ -- 12
+missing$ -- 35
+newline$ -- 40
+num.names$ -- 9
+pop$ -- 53
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 149
+stack$ -- 0
+substring$ -- 217
+swap$ -- 74
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 23
+width$ -- 14
+write$ -- 130
